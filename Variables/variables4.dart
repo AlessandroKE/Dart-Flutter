@@ -23,4 +23,6 @@ void main() {
 
   print(somevalue2);
   print(somevalue3);
+
+  //You cannot use a variable outside if condition unless it's defined outside the condition structure.
 }
