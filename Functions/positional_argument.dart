@@ -1,5 +1,5 @@
 void main() {
-  //When a variable is defined inside a function its called a local varibale 
+  //When a variable is defined inside a function its called a local varibale
   String name = 'Alessandro this is a good thing';
   printName(name);
 }
