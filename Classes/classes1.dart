@@ -9,7 +9,9 @@ void main() {
   Cookie();
 
   //example 2:
-  print(Cookie().shape);
+
+  //We achieve String interpolation by using ${......} the values inside are printed out as strings
+  print('${Cookie().size} cm');
 }
 
 class Cookie {
