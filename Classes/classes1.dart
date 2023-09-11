@@ -9,7 +9,7 @@ void main() {
   Cookie();
 
   //example 2:
-  print(Cookie());
+  print(Cookie().shape);
 }
 
 class Cookie {
