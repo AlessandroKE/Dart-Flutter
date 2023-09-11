@@ -24,6 +24,8 @@ void main() {
       'This Cookie is ${Cookie().size} cm and it is ${Cookie().shape} in shape');
   // This line creates another instance of the Cookie class and immediately accesses its 'size' property to print it.
   // Since the 'size' property is set to 5.3 in the Cookie class, it prints "5.3".
+
+  Cookie().baking();
 }
 
 class Cookie {
